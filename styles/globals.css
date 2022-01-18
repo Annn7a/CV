@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://rsms.me/inter/inter.css");
+html {
+  font-family: "Inter", sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
+}
+
+body {
+  background-image: radial-gradient(
+      at 14% 13%,
+      rgba(219, 255, 226, 0.349) 0,
+      transparent 59%
+    ),
+    radial-gradient(at 100% 49%, rgba(143, 151, 255, 0.329) 0, transparent 50%),
+    radial-gradient(at 12% 94%, rgba(255, 194, 210, 0.356) 0, transparent 50%),
+    url("/texture.png");
+}
