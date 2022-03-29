@@ -6,7 +6,7 @@ function AboutMe() {
       <div className="grid grid-cols-20 w-full gap-12 p-1 items-center">
         <div className="col-span-5 relative">
           <img
-            src="/avatar.png"
+            src="/avatar.jpg"
             className="rounded-full w-full shadow-md z-10 relative"
           />
 
